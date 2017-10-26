@@ -35,6 +35,8 @@ public class TestesEmpresa {
 		
 	}
 	
+	//Todos os testes em uma classe??? Divide isso!
+	
 	public void configurarCadastros() throws Exception {
 		
 		umaEmpresa.cadastrarProjeto(windows);
@@ -88,6 +90,7 @@ public class TestesEmpresa {
 	}
 	
 	@Test
+	//Melhorar nome, não sei se vc quer atualizar de alta para algo ou de algo para alta
 	public void atualizarPrioridadeAltaOcorrencia() throws Exception {
 		
 		configurarCadastros();

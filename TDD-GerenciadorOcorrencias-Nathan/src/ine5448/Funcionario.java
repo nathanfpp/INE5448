@@ -4,6 +4,9 @@ import java.util.LinkedList;
 
 public class Funcionario {
 
+	//Pela descirção a lista de ocorrencias tem de estar somente no projeto e não no funcionario e no projeto
+	//Se manter a lista mude o nome para listaOcorrenciasDoFuncionario
+	//Funcionário não deve ter projetos
 	private static final int LIMITE_OCORRENCIAS = 10;
 	private LinkedList<Ocorrencia> listaOcorrencias;
 	private LinkedList<Projeto> listaProjetos;
