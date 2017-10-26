@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 public class Projeto {
 	
+	//Funcionário é da empresa não do projeto
 	private LinkedList<Funcionario> listaFuncionarios;
 	private HashMap<Integer, Ocorrencia> listaOcorrencias;
 	private String nome; 

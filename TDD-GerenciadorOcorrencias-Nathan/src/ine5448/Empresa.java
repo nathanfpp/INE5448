@@ -22,7 +22,7 @@ public class Empresa {
 	
 
 	public void cadastrarProjeto(Projeto umProjeto) throws Exception {
-		
+		//Feio, utilizar colchetes!!!
 		if(naoContemProjeto(umProjeto.obterNome()))
 			listaProjetos.add(umProjeto);
 	}

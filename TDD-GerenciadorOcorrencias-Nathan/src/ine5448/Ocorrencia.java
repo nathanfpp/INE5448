@@ -8,6 +8,7 @@ public class Ocorrencia {
 	private Funcionario responsavel;
 	private String resumo;
 
+	//Faça os enum em classes separadas!!!!!!!!!!!!!!!!!!!
 	public enum Tipos {
 		TAREFA, BUG, MELHORIA;
 	}
